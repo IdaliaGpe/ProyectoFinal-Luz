@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-8248390485933399668
+--- !u!114 &-2477659914169447119
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,8 +20,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Toon Next Gen
-  m_Shader: {fileID: -6465566751694194690, guid: 7e3d12ed84255d143bc0e7ace80c7c48, type: 3}
+  m_Name: Water
+  m_Shader: {fileID: -6465566751694194690, guid: 3235ec3e13bfdcf4fa88f3ddb78111fa, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -32,8 +32,12 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - Texture2D_11ae7571c4b84190a12b40defe04254e:
-        m_Texture: {fileID: 0}
+    - Texture2D_0dbf40d81b444fbc9543abbecfcf7557:
+        m_Texture: {fileID: 2800000, guid: a8c871be27c139a499c5461bdb4ee248, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_e5339bb9be56434da130d3b246e91c56:
+        m_Texture: {fileID: 2800000, guid: fe69943cdbb66bc408ab514e1b71dcc2, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseMap:
@@ -92,9 +96,11 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    m_Ints: []
     m_Floats:
-    - BOOLEAN_5DD641D3F96C4B9CB0354A5A454B7C31: 1
-    - Vector1_f217ff64af59485ab826e69b85fdd203: 0.19
+    - Vector1_6e08aafafb804857ac5636e96ceac926: 0.79
+    - Vector1_754a1981ecf343658de69cc7d94a3832: 5
+    - Vector1_dda70f6032d642ae966300f930c7d99d: 1.21
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
@@ -102,6 +108,7 @@ Material:
     - _ClearCoatSmoothness: 0
     - _Cull: 2
     - _Cutoff: 0.5
+    - _Depth: 0.5
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
@@ -118,12 +125,13 @@ Material:
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
+    - _Strenght: 1.73
     - _Surface: 0
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - Color_55caa5ce40dc418aa8f4175ce8881953: {r: 1, g: 1, b: 1, a: 0}
-    - Color_df09145b3bee4fcfb99d41f85fbd2f44: {r: 0.039649326, g: 0.6331486, b: 0.9339623, a: 0}
+    - Color_52ab7827062443f58c7de57c07b7f5f7: {r: 0, g: 0, b: 0, a: 0.8509804}
+    - Color_98a22a2b7e2e499a9d9c0cb51d1101bb: {r: 0.08250267, g: 0.15889773, b: 0.16981131, a: 0.5803922}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
