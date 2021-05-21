@@ -654,8 +654,6 @@
         "m_GuidSerialized": "ef0b8ccd-da71-4e84-ac91-9f510c872f81"
     },
     "m_Name": "Main Texture",
-    "m_DefaultRefNameVersion": 0,
-    "m_RefNameGeneratedByDisplayName": "",
     "m_DefaultReferenceName": "Texture2D_11ae7571c4b84190a12b40defe04254e",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
@@ -1314,8 +1312,6 @@
         "m_GuidSerialized": "889b4c56-7b92-489e-ad5c-78c154289e0a"
     },
     "m_Name": "SpecularColor",
-    "m_DefaultRefNameVersion": 0,
-    "m_RefNameGeneratedByDisplayName": "",
     "m_DefaultReferenceName": "Color_55caa5ce40dc418aa8f4175ce8881953",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
@@ -1374,15 +1370,13 @@
 }
 
 {
-    "m_SGVersion": 1,
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.ShaderKeyword",
     "m_ObjectId": "5dd641d3f96c4b9cb0354a5a454b7c31",
     "m_Guid": {
         "m_GuidSerialized": "0d37d2a8-a121-4a72-8eca-49aeddc41301"
     },
     "m_Name": "Soft Ramp",
-    "m_DefaultRefNameVersion": 0,
-    "m_RefNameGeneratedByDisplayName": "",
     "m_DefaultReferenceName": "BOOLEAN_5DD641D3F96C4B9CB0354A5A454B7C31_ON",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
@@ -2687,8 +2681,6 @@
         "m_GuidSerialized": "73bede7b-2373-4800-b39d-518e646b1944"
     },
     "m_Name": "Albedo",
-    "m_DefaultRefNameVersion": 0,
-    "m_RefNameGeneratedByDisplayName": "",
     "m_DefaultReferenceName": "Color_df09145b3bee4fcfb99d41f85fbd2f44",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
@@ -2848,8 +2840,6 @@
         "m_GuidSerialized": "ac31e897-c104-4014-8199-8165ef079f9d"
     },
     "m_Name": "Smoothness",
-    "m_DefaultRefNameVersion": 0,
-    "m_RefNameGeneratedByDisplayName": "",
     "m_DefaultReferenceName": "Vector1_f217ff64af59485ab826e69b85fdd203",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
